@@ -54,3 +54,40 @@ button{
     background-size: cover;
     background-position: left; 
 }
+
+/* medai query herer */
+
+@media (max-width: 460px) {
+    .input {
+        width: 45vh;
+    }
+}
+@media (max-width: 420px) {
+    .input {
+        width: 40vh;
+    }
+}
+@media (max-width: 376px) {
+    .input {
+        width: 35vh;
+    }
+}
+@media (max-width: 335px) {
+    .input {
+        width: 30vh;
+    }
+}
+@media (max-width: 294px) {
+    .input {
+        width: 90%;
+    }
+    .main-calculator-div {
+       width: 80%;
+    }
+}
+@media (max-width: 231px) {
+    .button-css button{
+        font-size: 20px;
+        padding: 15px;
+    }
+}
