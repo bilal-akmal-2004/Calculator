@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- here is the main container for the Calculator -->
+    <div class="main-container-for-calculator">
+      <!-- now her is the conatiner for the Calculator -->
+
+      <div class="main-calculator-div">
+        <!-- her is the input area -->
+        <div class="input"></div>
+        <div class="button-css">
+          <button onclick="getValue('AC')">AC</button>
+          <button onclick="getValue('DEL')">DEL</button>
+          <button onclick="getValue('(')">(</button>
+          <button onclick="getValue(')')">)</button>
+        </div>
+        <div class="button-css">
+          <button onclick="getValue(7)">7</button>
+          <button onclick="getValue(8)">8</button>
+          <button onclick="getValue(9)">9</button>
+          <button onclick="getValue('*')">*</button>
+        </div>
+        <div class="button-css">
+          <button onclick="getValue(4)">4</button>
+          <button onclick="getValue(5)">5</button>
+          <button onclick="getValue(6)">6</button>
+          <button onclick="getValue('-')">-</button>
+        </div>
+        <div class="button-css">
+          <button onclick="getValue(1)">1</button>
+          <button onclick="getValue(2)">2</button>
+          <button onclick="getValue(3)">3</button>
+          <button onclick="getValue('+')">+</button>
+        </div>
+        <div class="button-css">
+          <button onclick="getValue('.')">.</button>
+          <button onclick="getValue(0)">0</button>
+          <button onclick="getValue('/')">/</button>
+          <button onclick="getValue('=')">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="javaScript.js"></script>
+  </body>
+</html>
